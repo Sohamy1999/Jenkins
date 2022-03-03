@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="Testing.Mexico.Login_Test" time="166.056" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="Testing.Mexico.Login_Test" time="0.008" errors="1" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -17,7 +17,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.version" value="1.8.0_321"/>
-    <property name="JOB_NAME" value="LATAM-DEMO"/>
+    <property name="JOB_NAME" value="Demo git"/>
     <property name="COMPUTERNAME" value="LIN24006498"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
@@ -29,19 +29,20 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\SDEEPAKY\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://soham:8080/job/LATAM-DEMO/18/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://soham:8080/job/Demo%20git/2/display/redirect?page=changes"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-LATAM-DEMO-18"/>
+    <property name="BUILD_TAG" value="jenkins-Demo git-2"/>
     <property name="GPPT_INSTALLFOLDER" value="c:\Installers"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Maven\apache-maven-3.8.4 C:\Users\SDEEPAKY\.jenkins\war\WEB-INF\lib\remoting-4.11.2.jar C:\Users\SDEEPAKY\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\SDEEPAKY\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 54321"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Maven\apache-maven-3.8.4 C:\Users\SDEEPAKY\.jenkins\war\WEB-INF\lib\remoting-4.11.2.jar C:\Users\SDEEPAKY\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\SDEEPAKY\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 64903"/>
     <property name="HUDSON_URL" value="http://soham:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="4ee8de30a30e4bdf"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="3"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_321/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-15.0.0.36-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jdk-15.0.0.36-hotspot\bin;C:\Users\SDEEPAKY\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Maven\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk1.8.0_321\bin;"/>
+    <property name="GIT_COMMIT" value="db30396019c43757edce3da3179a895b2c5aa46c"/>
     <property name="java.io.tmpdir" value="C:\Users\SDEEPAKY\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\SDEEPAKY\AppData\Roaming"/>
     <property name="user.language" value="en"/>
@@ -49,7 +50,7 @@
     <property name="GPPT_CACHEFOLDER" value="C:\Windows\ccmcache"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://soham:8080/job/LATAM-DEMO/18/"/>
+    <property name="BUILD_URL" value="http://soham:8080/job/Demo%20git/2/"/>
     <property name="M2_HOME" value="C:\Program Files (x86)\Maven\apache-maven-3.8.4"/>
     <property name="=C:" value="C:\Users\SDEEPAKY"/>
     <property name="PATH+CHROMEDRIVER" value="C:\Users\SDEEPAKY\.jenkins\tools\chromedriver"/>
@@ -59,11 +60,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="CI" value="true"/>
-    <property name="BUILD_DISPLAY_NAME" value="#18"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="4ee8de30a30e4bdf"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\SDEEPAKY\.jenkins\workspace\LATAM-DEMO@tmp"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\SDEEPAKY\.jenkins\workspace\Demo git@tmp"/>
     <property name="MAVEN_HOME" value="C:\Program Files (x86)\Maven\apache-maven-3.8.4"/>
     <property name="SESSIONNAME" value="Console"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
@@ -75,30 +76,29 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="18"/>
+    <property name="BUILD_NUMBER" value="2"/>
     <property name="ENV_DEMO" value="demo"/>
     <property name="maven3.interceptor" value="C:\Users\SDEEPAKY\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_321\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Maven\apache-maven-3.8.4/bin;C:\Program Files\Java\jdk1.8.0_321/bin;C:\Users\SDEEPAKY\.jenkins\tools\chromedriver;C:\Program Files\Java\jdk1.8.0_321/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-15.0.0.36-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jdk-15.0.0.36-hotspot\bin;C:\Users\SDEEPAKY\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Maven\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk1.8.0_321\bin;;."/>
     <property name="HOMEDRIVE" value="C:"/>
-    <property name="POM_GROUPID" value="Guru99"/>
-    <property name="POM_ARTIFACTID" value="Guru99"/>
     <property name="java.class.version" value="52.0"/>
-    <property name="JOB_URL" value="http://soham:8080/job/LATAM-DEMO/"/>
-    <property name="RUN_DISPLAY_URL" value="http://soham:8080/job/LATAM-DEMO/18/display/redirect"/>
+    <property name="JOB_URL" value="http://soham:8080/job/Demo%20git/"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="db30396019c43757edce3da3179a895b2c5aa46c"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="RUN_DISPLAY_URL" value="http://soham:8080/job/Demo%20git/2/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\SDEEPAKY\.jenkins"/>
-    <property name="BUILD_ID" value="18"/>
+    <property name="BUILD_ID" value="2"/>
     <property name="TEMP" value="C:\Users\SDEEPAKY\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="user.variant" value=""/>
     <property name="PROCESSOR_REVISION" value="8e0c"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="HUDSON_HOME" value="C:\Users\SDEEPAKY\.jenkins"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Maven\apache-maven-3.8.4/bin"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="CORP"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://soham:8080/job/LATAM-DEMO/18/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://soham:8080/job/Demo%20git/2/display/redirect?page=artifacts"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_321"/>
@@ -106,7 +106,7 @@
     <property name="NODE_LABELS" value="built-in"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="USERPROFILE" value="C:\Users\SDEEPAKY"/>
-    <property name="JOB_DISPLAY_URL" value="http://soham:8080/job/LATAM-DEMO/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://soham:8080/job/Demo%20git/display/redirect"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\SDEEPAKY"/>
@@ -115,7 +115,7 @@
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="USERDNSDOMAIN" value="CORP.CAPGEMINI.COM"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="user.dir" value="C:\Users\SDEEPAKY\Downloads\Mexico"/>
+    <property name="user.dir" value="C:\Users\SDEEPAKY\git\demo\Mexico"/>
     <property name="maven.conf" value="C:\Program Files (x86)\Maven\apache-maven-3.8.4\conf"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="TMP" value="C:\Users\SDEEPAKY\AppData\Local\Temp"/>
@@ -126,13 +126,15 @@
     <property name="java.class.path" value="C:\Users\SDEEPAKY\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\Maven\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;C:\Program Files (x86)\Maven\apache-maven-3.8.4/conf/logging"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="os.arch" value="amd64"/>
-    <property name="WORKSPACE" value="C:\Users\SDEEPAKY\.jenkins\workspace\LATAM-DEMO"/>
+    <property name="WORKSPACE" value="C:\Users\SDEEPAKY\.jenkins\workspace\Demo git"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://soham:8080/job/LATAM-DEMO/18/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://soham:8080/job/Demo%20git/2/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
     <property name="file.separator" value="\"/>
     <property name="java.runtime.version" value="1.8.0_321-b07"/>
     <property name="ProgramFiles" value="C:\Program Files"/>
@@ -140,16 +142,46 @@
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_321/bin"/>
     <property name="=ExitCode" value="00000001"/>
     <property name="user.country" value="IN"/>
-    <property name="POM_PACKAGING" value="jar"/>
     <property name="maven.home" value="C:\Program Files (x86)\Maven\apache-maven-3.8.4"/>
-    <property name="JOB_BASE_NAME" value="LATAM-DEMO"/>
+    <property name="JOB_BASE_NAME" value="Demo git"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="Guru99"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="GIT_URL" value="https://github.com/Sohamy1999/Jenkins.git"/>
   </properties>
-  <testcase classname="Login Functionality" name="Validate if user is able to login with valid credentials" time="30.99"/>
-  <testcase classname="Login Functionality" name="Validate if user is able to login with valid credentials" time="32.85"/>
-  <testcase classname="Login Functionality" name="Validate if user is able to login with valid credentials" time="36.663"/>
-  <testcase classname="Login Functionality" name="Validate if user is able to login with valid credentials" time="65.553"/>
+  <testcase classname="Testing.Mexico.Login_Test" name="initializationError" time="0.008">
+    <error message="Not a file or directory: C:\Users\SDEEPAKY\Downloads\Mexico\src\main\java\features\login.feature" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Not a file or directory: C:\Users\SDEEPAKY\Downloads\Mexico\src\main\java\features\login.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.&lt;init&gt;(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.&lt;init&gt;(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.FeatureLoader.loadFromFeaturePath(FeatureLoader.java:31)
+	at cucumber.runtime.model.FeatureLoader.load(FeatureLoader.java:23)
+	at cucumber.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:33)
+	at cucumber.api.junit.Cucumber.&lt;init&gt;(Cucumber.java:94)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
 </testsuite>
