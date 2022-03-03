@@ -15,7 +15,7 @@ public static	WebDriver driver ;
 
 public  void setup()
 {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\SDEEPAKY\\Downloads\\Mexico\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\SDEEPAKY\\git\\demo\\Mexico\\chromedriver.exe");
 	driver = new ChromeDriver();
 	
 	driver.get("https://qa.identity.metlife.mx/public/login");
